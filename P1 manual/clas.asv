@@ -1,0 +1,11 @@
+function [medias] = clas(clases, numc,nume)
+    media = [];
+    for i = 1 : numc
+          c = [];
+        for j=1: nume
+            
+        end
+        media = [media,c]
+    end
+    medias = media;
+end

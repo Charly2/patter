@@ -1,0 +1,14 @@
+function [ e ] = getCl( Nc, rep,cl,in )
+flag = 0;
+c=1;
+ %for i = 1:Nc
+while(c<=Nc)
+     a=cl(c,:);
+        if(length(find(c==in)))
+            
+        end
+c=c+1;
+ end
+ e=flag;
+end
+
